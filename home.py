@@ -17,8 +17,8 @@ mode = st.selectbox("Select Mode", ["", "Chatbot", "Evaluation"])
 
 # Mapping choices to URLs
 url_mapping = {
-    ("Keyword Matching", "Chatbot"): "http://localhost:9501/keyword_matching",
-    ("Keyword Matching", "Evaluation"): "http://localhost:9503/evaluationKeywordMatching",
+    ("Keyword Matching", "Chatbot"): "https://faqchatbot-keyword-matching.streamlit.app/",
+    ("Keyword Matching", "Evaluation"): "https://faqchatbot-eval-key-matching.streamlit.app/",
     ("TF-IDF", "Chatbot"): "http://localhost:9506/tfidf_chatbot",
     ("TF-IDF", "Evaluation"): "http://localhost:9507/eval_tfidf",
     ("BERT", "Chatbot"): "http://localhost:9504/bertChatbot",
