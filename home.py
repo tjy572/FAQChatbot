@@ -19,10 +19,10 @@ mode = st.selectbox("Select Mode", ["", "Chatbot", "Evaluation"])
 url_mapping = {
     ("Keyword Matching", "Chatbot"): "https://faqchatbot-keyword-matching.streamlit.app/",
     ("Keyword Matching", "Evaluation"): "https://faqchatbot-eval-key-matching.streamlit.app/",
-    ("TF-IDF", "Chatbot"): "http://localhost:9506/tfidf_chatbot",
+    ("TF-IDF", "Chatbot"): "https://faqchatbot-bert-chatbot.streamlit.app/",
     ("TF-IDF", "Evaluation"): "https://faqchatbot-eval-bert.streamlit.app/",
-    ("BERT", "Chatbot"): "http://localhost:9504/bertChatbot",
-    ("BERT", "Evaluation"): "http://localhost:9505/evaluationBert",
+    ("BERT", "Chatbot"): "https://faqchatbot-tfdif-chatbot.streamlit.app/",
+    ("BERT", "Evaluation"): "https://faqchatbot-tfdif-eval.streamlit.app/",
 }
 
 # Launch button
